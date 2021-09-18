@@ -8,7 +8,6 @@ public class GorillaTest {
         g.eatBananas();
         g.eatBananas();
         g.climb();
-
-        System.out.println(g.energyLevel);
+        g.displayEnergy();
     }
 }
