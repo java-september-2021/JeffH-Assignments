@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+.box {
+	width: 750px;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: 100px 200px;
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.title {
+	text-decoration: underline;
+}
